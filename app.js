@@ -11,8 +11,8 @@ const firstName = document.getElementById('first-name');
 // when button clicked
 
 button.addEventListener('click', ()=>{
-  let newName = nameInput.value;
-  firstName.textContent = newName;
+    let newName = nameInput.value;
+    firstName.textContent = newName;
 });
 
 
